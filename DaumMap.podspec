@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "DaumMapSDK"
+  s.name             = "PsdSDK"
   s.version          = "1.0.0"
   s.summary          = "DaumMapSDK for CocoaPods."
   s.homepage         = "https://FART86@bitbucket.org/FART86"
