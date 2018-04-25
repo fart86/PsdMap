@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://FART86@bitbucket.org/FART86/psdmap'
+  s.homepage         = 'https://github.com/fart86/PsdMap'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '김필수' => 'fart861008@gmail.com' }
-  s.source           = { :git => 'https://FART86@bitbucket.org/FART86/psdmap.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fart86/PsdMap.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
