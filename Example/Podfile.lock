@@ -1,0 +1,16 @@
+PODS:
+  - PsdMap (0.1.0)
+
+DEPENDENCIES:
+  - PsdMap (from `../`)
+
+EXTERNAL SOURCES:
+  PsdMap:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PsdMap: 898b38463ea56b689b81bca23e388d4f9069a2f8
+
+PODFILE CHECKSUM: 85229f2298c876cc459299d0809a48bffa381224
+
+COCOAPODS: 1.5.0
