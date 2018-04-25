@@ -153,7 +153,7 @@ typedef struct {
 /**
  * 지도 화면의 영역을 표현하는 데이터 구조
  * 영역의 좌하단 지점과 우상단 지점을 각각 MTMapPoint 타입의 인자로 갖는다.
- * @deprecated 제거될 예정. MTMapBoundsRect 클래스를 사용하세요.
+ * t 제거될 예정. MTMapBoundsRect 클래스를 사용하세요.
  */
 typedef struct {
     __unsafe_unretained MTMapPoint* bottoomLeft; /**< 영역의 좌하단 좌표 */
@@ -162,7 +162,7 @@ typedef struct {
 
 /**
  * 영역의 좌하단 좌표값과 우상단 좌표값으로 MTMapBounds 데이터 구조를 생성하는 매크로
- * @deprecated 제거될 예정. MTMapBoundsRect 클래스를 사용하세요.
+ * t 제거될 예정. MTMapBoundsRect 클래스를 사용하세요.
  * @param bottoomLeft 영역의 좌하단 좌표
  * @param topRight 영역의 우상단 좌표
  * @return MTMapBounds 데이터 구조

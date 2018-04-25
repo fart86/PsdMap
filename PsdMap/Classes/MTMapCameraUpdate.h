@@ -58,7 +58,7 @@
 /**
  * 지정한 영역이 화면에 나타나도록 지도화면 중심과 확대/축소 레벨을 자동조절한다.
  * 지정한 영역의 padding 값은 0
- * @deprecated 제거될 예정. fitMapViewWithMapBounds: 를 사용하세요.
+ * t 제거될 예정. fitMapViewWithMapBounds: 를 사용하세요.
  * @param bounds 화면에 보여주고자 하는 영역 (MTMapPoint 타입의 좌하단 지점과 우상단 지점을 인자로 갖는 구조체)
  */
 
@@ -66,7 +66,7 @@
 
 /**
  * padding 값을 반영한 지정한 영역이 화면에 지정된 나타나도록 지도화면 중심과 확대/축소 레벨을 자동조절한다.
- * @deprecated 제거될 예정. fitMapViewWithMapBounds:withPadding: 를 사용하세요.
+ * t 제거될 예정. fitMapViewWithMapBounds:withPadding: 를 사용하세요.
  * @param bounds 화면에 보여주고자 하는 영역 (MTMapPoint 타입의 좌하단 지점과 우상단 지점을 인자로 갖는 구조체)
  * @param padding 지정한 영역의 padding 값
  */
@@ -76,7 +76,7 @@
 /**
  * padding 값을 반영한 지정한 영역이 화면에 지정된 나타나도록 하되
  * 지정한 최소 레벨과 최대 레벨 범위 안의 지도화면 중심과 확대/축소 레벨을 자동조절 한다.
- * @deprecated 제거될 예정. fitMapViewWithMapBounds:withPadding:withMinZoomLevel:withMaxZoomLevel: 를 사용하세요.
+ * t 제거될 예정. fitMapViewWithMapBounds:withPadding:withMinZoomLevel:withMaxZoomLevel: 를 사용하세요.
  * @param bounds 화면에 보여주고자 하는 영역 (MTMapPoint 타입의 좌하단 지점과 우상단 지점을 인자로 갖는 구조체)
  * @param padding 지정한 영역의 padding 값
  * @param minZoomLevel 지도 화면 최대 확대 레벨 값 (-2~12, 값이 작을수록 더 좁은 영역이 화면이 보임. 지도 화면이 확대됨)

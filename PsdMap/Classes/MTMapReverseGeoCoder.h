@@ -29,7 +29,7 @@ enum AddressType { ShortAddress = 1, FullAddress };
  * 주소정보를 알고자 하는 지도 좌표와 Reverse Geo-coding 결과를 통보받을 수 있는 delegate 객체를 설정한다.
  * 비동기(Asynchronous) 방식으로 Reverse Geo-coding을 수행하고자 하는 경우 MTMapReverseGeoCoder 객체를 생성한다.
  * 동기(Synchronous, Blocking) 방식으로 Reverse Geo-coding을 실행하는 경우에는 findAddressForMapPoint:withAddressType: static 메소드를 사용한다.
- * @deprecated 제거될 예정입니다. 비동기(Asynchronous) 방식으로 Reverse Geo-coding을 수행하고자 하는 경우 executeFindingAddressForMapPoint:openAPIKey:completionHandler: 를 사용하십시오.
+ * t 제거될 예정입니다. 비동기(Asynchronous) 방식으로 Reverse Geo-coding을 수행하고자 하는 경우 executeFindingAddressForMapPoint:openAPIKey:completionHandler: 를 사용하십시오.
  * @param mapPoint 주소정보로 변화하고자하는 지도 좌표
  * @param delegate Reverse Geo-coding 결과를 통보받을 수 있는 delegate 객체
  * @param openAPIKey Open API Key
@@ -39,12 +39,12 @@ enum AddressType { ShortAddress = 1, FullAddress };
 /**
  * Reverse Geo-coding(Asynchronous) 서비스를 요청한다.
  * 주소 정보는 비동기 방식으로 delegate 객체에 전달된다.
- * @deprecated executeFindingAddressForMapPoint:openAPIKey:completionHandler: 를 사용하십시오.
+ * t executeFindingAddressForMapPoint:openAPIKey:completionHandler: 를 사용하십시오.
  */
 - (void)startFindingAddress;
 
 /**
- * @deprecated executeFindingAddressForMapPoint:openAPIKey:addressType:completionHandler: 를 사용하십시오.
+ * t executeFindingAddressForMapPoint:openAPIKey:addressType:completionHandler: 를 사용하십시오.
  * @param addressType 변환 받을 주소 정보의 타입
  */
 - (void)startFindingAddressWithAddressType:(enum AddressType)addressType;
@@ -105,14 +105,14 @@ typedef void (^MTMapReverseGeoCoderCompletionHandler) (BOOL success, NSString *a
 
 /**
  * Reverse Geo-Coding 결과를 비동기적으로 통보받는 객체가 구현해야하는 interface protocol
- * @deprecated 제거될 예정입니다.
+ * t 제거될 예정입니다.
  */
 @protocol MTMapReverseGeoCoderDelegate <NSObject>
 @optional
 
 /**
  * 주소를 찾은 경우 호출된다.
- * @deprecated 제거될 예정입니다.
+ * t 제거될 예정입니다.
  * @param rGeoCoder MTMapReverseGeoCoder 객체
  * @param addressString 결과 주소 문자열
  */
@@ -120,7 +120,7 @@ typedef void (^MTMapReverseGeoCoderCompletionHandler) (BOOL success, NSString *a
 
 /**
  * Reverse Geo-Coding 서비스 호출에 실패한 경우 호출된다.
- * @deprecated 제거될 예정입니다.
+ * t 제거될 예정입니다.
  * @param rGeoCoder MTMapReverseGeoCoder 객체
  * @param error NSError 객체
  */

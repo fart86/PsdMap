@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <PsdMap/MTMapGeometry.h>
+#import <PsdMap/t.h>
 
 /**
  * @brief 지도도화면 위에 추가되는 Circle에 해당하는 Class.
