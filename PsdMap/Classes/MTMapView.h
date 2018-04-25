@@ -8,11 +8,11 @@
  */
 
 #import <UIKit/UIKit.h>
-#import <DaumMap/MTMapGeometry.h>
-#import <DaumMap/MTMapPOIItem.h>
-#import <DaumMap/MTMapPolyline.h>
-#import <DaumMap/MTMapCircle.h>
-#import <DaumMap/MTMapLocationMarkerItem.h>
+#import <MTMapGeometry.h>
+#import <MTMapPOIItem.h>
+#import <MTMapPolyline.h>
+#import <MTMapCircle.h>
+#import <MTMapLocationMarkerItem.h>
 
 
 @class MTMapViewInternal;

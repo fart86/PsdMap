@@ -8,8 +8,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <DaumMap/MTMapGeometry.h>
-#import <DaumMap/MTMapView.h>
+#import <MTMapGeometry.h>
+#import <MTMapView.h>
 
 
 /**

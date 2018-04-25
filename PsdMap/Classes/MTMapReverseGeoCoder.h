@@ -8,7 +8,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <DaumMap/MTMapGeometry.h>
+#import <MTMapGeometry.h>
 
 @class MTMapReverseGeoCoderInternal;
 @protocol MTMapReverseGeoCoderDelegate;
