@@ -8,7 +8,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <MTMapGeometry.h>
+#import <PsdMap/MTMapGeometry.h>
 
 /**
  * POI Item 아이콘(마커) 타입 enumeration
