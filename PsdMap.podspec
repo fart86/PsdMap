@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "DaumMapSDK"
+  s.name             = "PsdMapSDK"
   s.version          = "1.0.0"
   s.summary          = "DaumMapSDK for CocoaPods."
   s.homepage         = "https://FART86@bitbucket.org/FART86"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.vendored_frameworks = 'DaumMap.framework'
+  s.vendored_frameworks = 'PsdMap.framework'
   s.source_files = '*.{h,m}'
   s.frameworks = 'UIKit', 'CoreGraphics', 'CoreFoundation'
 
