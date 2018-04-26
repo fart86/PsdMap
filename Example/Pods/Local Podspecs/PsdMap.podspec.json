@@ -1,0 +1,22 @@
+{
+  "name": "PsdMap",
+  "version": "0.1.0",
+  "summary": "A short description of PsdMap.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/김필수/PsdMap",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "김필수": "fart861008@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/김필수/PsdMap.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PsdMap/Classes/**/*"
+}

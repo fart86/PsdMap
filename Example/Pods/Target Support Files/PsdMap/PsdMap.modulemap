@@ -1,0 +1,6 @@
+framework module PsdMap {
+  umbrella header "PsdMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
